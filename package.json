@@ -1,9 +1,23 @@
 {
-  "name": "history",
-  "private": true,
-  "version": "0.0.2",
-  "dependencies": {
-    "express": "~3.3.4",
-    "hbs": "~2.3.0"
-  }
+  "name": "@karboh/history",
+  "version": "1.0.0",
+  "description": "A nicer wrapper around the browser's History API. Push, replace, back, forward, etc.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karlbohlmark/history.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlbohlmark/history/issues"
+  },
+  "homepage": "https://github.com/karlbohlmark/history"
 }
